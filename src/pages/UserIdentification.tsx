@@ -63,11 +63,10 @@ export function UserIdentification() {
                                     styles.input,
                                     (isFocused || isFilled) && { borderColor: colors.green }
                                 ]}
-                                placeholder="Digite o nome"
+                                placeholder="Digite um nome"
                                 onBlur={handleInputBlur}
                                 onFocus={handleInputFocus}
                                 onChangeText={handleInputChange}
-
                             />
                             <View style={styles.footer}>
                                 <Button
